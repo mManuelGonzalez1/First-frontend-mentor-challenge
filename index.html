@@ -2,40 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krub:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="./design/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krub:wght@300;400;600;700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Social links profile</title>
+  <title>Frontend Mentor | NFT preview card component</title>
 </head>
+
 <body>
     <main>
-      <section class="contenedor--principal">
-        <div class="contenedor--principal-informacion">
-          <img src="./assets/images/avatar-jessica.jpeg" alt="perfil">
-          <h1>Jessica Randall</h1>
-          <h2>London,United kingdom</h2>
-          <p>"Frontend developer and avoid reader".</p>
+      <section class="contenedor-carta">
+        <div class="contenedor-carta-img">
+          <img src="./images/image-equilibrium.jpg" alt="NFT">
+          <div class="hover-icon">
+            <p></p>
+          </div>
+          
         </div>
-
-        <div class="contenedor--principal--redes">
-          <a href="#" class="redes">Github</a>
-          <a href="#" class="redes">Frontend Mentor</a>
-          <a href="#" class="redes">LinkedIn</a>
-          <a href="#" class="redes">Twitter</a>
-          <a href="#" class="redes">Instagram</a>
+        <div class="contenedor-carta-info">
+          <h1>Equilibrium #3429</h1>
+          <p>Our Equilibrium collection promotes balance and calm</p>
+          <div class="precios">
+          <img src="./images/icon-ethereum.svg" alt="icon-ethereum">
+          <p class="precio">0.041 ETH</p>
+          <img src="./images/icon-clock.svg" alt="icon-clock">
+          <p class="dias">3 days left</p>
+          </div>
+          
+        </div>
+        <div class="contenedor-carta-perfil">
+          <img src="./images/image-avatar.png" alt="image-avatar">
+          <p>Creation of<span> Jules Wyvern</span></p>
         </div>
       </section>
     </main>
-    <footer>
-      <div class="attribution">
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-          Coded by <a href="#">Manuel Gonzalez</a>.
-      </div>
-    </footer>
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Manuel Gonzalez</a>.
+  </div>
+</footer>
 </body>
 </html>
