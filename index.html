@@ -2,48 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krub:wght@300;400;600;700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krub:wght@500;700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./styles.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
-  <title>Frontend Mentor | NFT preview card component</title>
+  <title>Frontend Mentor | Blog preview card</title>
+  
 </head>
-
 <body>
-    <main>
-      <section class="contenedor-carta">
-        <div class="contenedor-carta-img">
-          <img src="./images/image-equilibrium.jpg" alt="NFT">
-          <div class="hover-icon">
-            <p></p>
-          </div>
-          
-        </div>
-        <div class="contenedor-carta-info">
-          <h1>Equilibrium #3429</h1>
-          <p>Our Equilibrium collection promotes balance and calm</p>
-          <div class="precios">
-          <img src="./images/icon-ethereum.svg" alt="icon-ethereum">
-          <p class="precio">0.041 ETH</p>
-          <img src="./images/icon-clock.svg" alt="icon-clock">
-          <p class="dias">3 days left</p>
-          </div>
-          
-        </div>
-        <div class="contenedor-carta-perfil">
-          <img src="./images/image-avatar.png" alt="image-avatar">
-          <p>Creation of<span> Jules Wyvern</span></p>
-        </div>
-      </section>
-    </main>
-<footer>
-  <div class="attribution">
+  <main class="card">
+    <section class="card-image-container">
+      <img src="./assets/images/illustration-article.svg" alt="">
+    </section>
+    <section class="card-info-container">
+      <p>Learning</p>
+      <p>Published 21 Dec 2023</p>
+      <h1>  HTML & CSS foundations</h1>
+      <p class="text">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    </section>
+    <section class="card-profile-container">
+      <img src="./assets/images/image-avatar.webp" alt="">
+      <p>Greg Hooper</p>
+    </section>
+  </main>
+  <footer> 
+    <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Manuel Gonzalez</a>.
   </div>
-</footer>
+  </footer>
 </body>
 </html>
